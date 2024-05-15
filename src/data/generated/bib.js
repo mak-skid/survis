@@ -221,6 +221,17 @@
         "volume": "158",
         "year": "2024"
     },
+    "Yang2019": {
+        "abstract": "Traffic congestion is common in most cities. It not only affects people's normal travel time but also causes more trafficcrashes. To solve the traffic congestion and reduce the corresponding hazards, it is necessary to quickly detect the location oftraffic congestion. In view of the fact that the trajectory data record the temporal and spatial information of moving objects, thisarticle presents two methods for the real-time detection of traffic congestion through real-time processing of trajectory data. Oneis to use distributed densit-based spatial clustering of applications with noise (DBSCAN) clustering to detect the location oftraffic congestion. The other is to perform distributed topology analysis of trajectory data to find congested areas. Finally,extensive experiments that involved using three real datasets to simulate both real-time detection methods on Spark Streamingdemonstrated the efficiency of the two methods.",
+        "author": "Yang, Qing and Yue, Zhongwei and Chen, Ru and Zhang, Jingwei and Hu, Xiaoli and Zhou, Ya",
+        "doi": "10.1049/joe.2019.0872",
+        "journal": "The Journal of Engineering",
+        "month": "09",
+        "title": "Real-Time Detection of Traffic Congestion Based on Trajectory Data",
+        "type": "article",
+        "volume": "2019",
+        "year": "2019"
+    },
     "Zhang20231124": {
         "abstract": "With the increasing availability of location-aware devices, passively collected big GPS trajectory data offer new opportunities for analyzing human mobility. Processing big GPS trajectory data, especially extracting information from billions of trajectory points and assigning information to corresponding road segments in road networks, is a challenging but necessary task for researchers to take full advantage of big data. In this research, we propose an Apache Spark and Sedona-based computing framework that is capable of estimating traffic speeds for statewide road networks from GPS trajectory data. Taking advantage of spatial resilient distributed datasets supported by Sedona, the framework provides high computing efficiency while using affordable computing resources for map matching and waypoint gap filling. Using a mobility dataset of 126 million trajectory points collected in California, and a road network inclusive of all road types, we computed hourly speed estimates for approximately 600,000 segments across the state. Comparing speed estimates for freeway segments with speed limits, our speed estimates showed that speeding on freeways occurred mostly during the nighttime, while analysis of travel on residential roads showed that speeds were relatively stable over the 24-h period. \u00a9 2023 John Wiley & Sons Ltd.",
         "author": "Zhang, Peiqi and Stewart, Kathleen and Li, Yao",
@@ -237,17 +248,6 @@
         "url": "https://www.scopus.com/inward/record.uri?eid",
         "volume": "27",
         "year": "2023"
-    },
-    "article": {
-        "abstract": "Traffic congestion is common in most cities. It not only affects people's normal travel time but also causes more trafficcrashes. To solve the traffic congestion and reduce the corresponding hazards, it is necessary to quickly detect the location oftraffic congestion. In view of the fact that the trajectory data record the temporal and spatial information of moving objects, thisarticle presents two methods for the real-time detection of traffic congestion through real-time processing of trajectory data. Oneis to use distributed densit-based spatial clustering of applications with noise (DBSCAN) clustering to detect the location oftraffic congestion. The other is to perform distributed topology analysis of trajectory data to find congested areas. Finally,extensive experiments that involved using three real datasets to simulate both real-time detection methods on Spark Streamingdemonstrated the efficiency of the two methods.",
-        "author": "Yang, Qing and Yue, Zhongwei and Chen, Ru and Zhang, Jingwei and Hu, Xiaoli and Zhou, Ya",
-        "doi": "10.1049/joe.2019.0872",
-        "journal": "The Journal of Engineering",
-        "month": "09",
-        "title": "Real-Time Detection of Traffic Congestion Based on Trajectory Data",
-        "type": "article",
-        "volume": "2019",
-        "year": "2019"
     },
     "electronics12173569": {
         "abstract": "Every day, hundreds of thousands of vehicles, including buses, taxis, and ride-hailing cars, continuously generate GPS positioning records. Simultaneously, the traffic big data platform of urban transportation systems has already collected a large amount of GPS trajectory datasets. These incremental and historical GPS datasets require more and more storage space, placing unprecedented cost pressure on the big data platform. Therefore, it is imperative to efficiently compress these large-scale GPS trajectory datasets, saving storage cost and subsequent computing cost. However, a set of classical trajectory compression algorithms can only be executed in a single-threaded manner and are limited to running in a single-node environment. Therefore, these trajectory compression algorithms are insufficient to compress this incremental data, which often amounts to hundreds of gigabytes, within an acceptable time frame. This paper utilizes Spark, a popular big data processing engine, to parallelize a set of classical trajectory compression algorithms. These algorithms consist of the DP (Douglas\u2013Peucker), the TD-TR (Top-Down Time-Ratio), the SW (Sliding Window), SQUISH (Spatial Quality Simplification Heuristic), and the V-DP (Velocity-Aware Douglas\u2013Peucker). We systematically evaluate these parallelized algorithms on a very large GPS trajectory dataset, which contains 117.5 GB of data produced by 20,000 taxis. The experimental results show that: (1) It takes only 438 s to compress this dataset in a Spark cluster with 14 nodes; (2) These parallelized algorithms can save an average of 26\\% on storage cost, and up to 40\\%. In addition, we design and implement a pipeline-based solution that automatically performs preprocessing and compression for continuous GPS trajectories on the Spark platform.",
@@ -267,6 +267,7 @@
     "elmeiligy2021efficient": {
         "abstract": "With the increasing daily production of data in recent years, indexing, storing and retrieving huge amounts of data have become a common problem, especially for multi-dimensional big data. Although R-tree has proved to be efficient for indexing multi-dimensional big data, the R-tree suffers from the curse of dimensionality problem. Many researchers continue to use the R-tree in their studies as it is the most famous tree-like structure for indexing multi-dimensional data. However, with increasing numbers of dimensions in multi-dimensional data the performance of R-Tree will decrease. This paper proposes a new indexing structure called Parallel Indexing System Structure based on Spark (ParISSS), which is an efficient system for indexing multi-dimensional big data, to overcome these problems. ParISSS introduces six types of computing nodes, the reception-node is used to insert and index data, the normal-node is used to store indexed data, the resolution-node is used to distribute a reception-index to a normal-node, the representative-node is used to receive queries from the user, and the reply-node and check-node are used to send the results to the user. We also introduced BR*-tree structure to improve the storing and searching processes. We present an extensive experimental evaluation of our system, comparing several indexing systems. The experimental results show that ParISSS outperforms other indexing systems.",
         "author": "Elmeiligy, Manar A and Desouky, Ali I El and Elghamrawy, Sally M",
+        "doi": "https://doi.org/10.1007/s11227-021-03718-3",
         "journal": "The Journal of Supercomputing",
         "keywords": "Multi-dimensional data, Big data, Indexing, Parallel Processing, Spark",
         "number": "10",
