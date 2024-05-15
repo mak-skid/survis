@@ -93,7 +93,7 @@
 
 @article{Kinoshita_Shiomi_2023, ,
   author = {Kinoshita, Masahiro and Shiomi, Yasuhiro},
-  doi = {10.1007/s13177-022-00339-9},
+  doi = {https://10.1007/s13177-022-00339-9},
   journal = {International Journal of Intelligent Transportation Systems Research},
   month = {Mar},
   number = {1},
@@ -101,7 +101,8 @@
   title = {Data-driven modeling of car-following behavior on freeways considering spatio-time effects: A comparison of different neural network structures},
   volume = {21},
   year = {2023},
-  keywords = {Car-following, Deep learning, Data-driven, Vehicle trajectory data, Freeways}
+  keywords = {Car-following, Deep learning, Data-driven, Vehicle trajectory data, Freeways},
+  abstract={Car-following behavior models based on conventional mathematical models cannot adequately reproduce traffic phenomena, such as traffic breakdown, capacity drop, and oscillations, and require parameter setting. Therefore, this study aims to construct a highly accurate car-following behavior model using deep learning. We evaluated the influence of variables in the dataset using a random forest. Furthermore, we constructed models to predict the acceleration in one second using the deep learning methods, deep neural network, long short-term memory, one-dimensional convolution neural network (1DCNN), and 2DCNN models. The models were evaluated using root mean square error, MAE, yyplot, and loss plot. The results showed that spatiotemporally structuring the data increased the accuracy of the predictions.}
 }
 
 @article{rossi2021vehicle,
@@ -173,4 +174,183 @@ uncertainty, trajectory classification, urban computing},
   year = {2015},
   abstract = {The advances in location-acquisition and mobile computing techniques have generated massive spatial trajectory data, which represent the mobility of a diversity of moving objects, such as people, vehicles, and animals. Many techniques have been proposed for processing, managing, and mining trajectory data in the past decade, fostering a broad range of applications. In this article, we conduct a systematic survey on the major research into trajectory data mining, providing a panorama of the field as well as the scope of its research topics. Following a road map from the derivation of trajectory data, to trajectory data preprocessing, to trajectory data management, and to a variety of mining tasks (such as trajectory pattern mining, outlier detection, and trajectory classification), the survey explores the connections, correlations, and differences among these existing techniques. This survey also introduces the methods that transform trajectories into other data formats, such as graphs, matrices, and tensors, to which more data mining and machine learning techniques can be applied. Finally, some public trajectory datasets are presented. This survey can help shape the field of trajectory data mining, providing a quick understanding of this field to the community.
 }
+}
+
+@article{Zhang20231124,
+  author            = {Zhang, Peiqi and Stewart, Kathleen and Li, Yao},
+  title             = {Estimating traffic speed and speeding using passively collected big mobility data and a distributed computing framework},
+  year              = {2023},
+  journal           = {Transactions in GIS},
+  volume            = {27},
+  number            = {4},
+  pages             = {1124 – 1144},
+  doi               = {10.1111/tgis.13061},
+  url               = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85158139961&doi=10.1111%2ftgis.13061&partnerID=40&md5=4b3b85c991c4f5286d537388e4bb0fe3},
+  abstract          = {With the increasing availability of location-aware devices, passively collected big GPS trajectory data offer new opportunities for analyzing human mobility. Processing big GPS trajectory data, especially extracting information from billions of trajectory points and assigning information to corresponding road segments in road networks, is a challenging but necessary task for researchers to take full advantage of big data. In this research, we propose an Apache Spark and Sedona-based computing framework that is capable of estimating traffic speeds for statewide road networks from GPS trajectory data. Taking advantage of spatial resilient distributed datasets supported by Sedona, the framework provides high computing efficiency while using affordable computing resources for map matching and waypoint gap filling. Using a mobility dataset of 126 million trajectory points collected in California, and a road network inclusive of all road types, we computed hourly speed estimates for approximately 600,000 segments across the state. Comparing speed estimates for freeway segments with speed limits, our speed estimates showed that speeding on freeways occurred mostly during the nighttime, while analysis of travel on residential roads showed that speeds were relatively stable over the 24-h period. © 2023 John Wiley & Sons Ltd.},
+  keywords          = {California, United States, Distributed computer systems, Motor transportation, Roads and streets, Distributed computing frameworks, Extracting information, Human mobility, Location-aware, Mobility datum, Road network, Road segments, Traffic speed, Trajectories datum, Trajectory points, estimation method, GPS, mobility, road transport, trajectory, travel time, Trajectories},
+  type              = {Article},
+  publication_stage = {Final},
+  source            = {Scopus},
+  note              = {Cited by: 1}
+}
+
+@conference{Peng2020209,
+  author            = {Peng, X. and Wang, C. and Liu, K. and Quinones, A. and Li, S. and Shan, J.},
+  title             = {Exploration of municipal mobility using smartphone gps data},
+  year              = {2020},
+  journal           = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+  volume            = {5},
+  number            = {4},
+  pages             = {209 – 215},
+  doi               = {10.5194/isprs-Annals-V-4-2020-209-2020},
+  url               = {https://www.scopus.com/inward/record.uri?eid=2-s2.0-85092157891&doi=10.5194%2fisprs-Annals-V-4-2020-209-2020&partnerID=40&md5=bb0d5c68437ec21280288d5b1f96025b},
+  abstract          = {Due to the advances in location-Acquisition techniques, smartphone GPS location data has emerged with opportunity for research, development, innovation, and business. A variety of research has been developed to study human behaviour through exploring patterns from these data. In this paper, we use smartphone GPS location data to investigate municipal mobility. Kernel density estimation and emerging hot spot analysis are used to the GPS dataset to demonstrate GPS user (point) distribution across space and time. Flow maps are capable of tracking clustering behaviours and direction maps drawn upon the orientation of vectors can precisely identify location of the events. Case study with Indianapolis metropolitan area traffic rush hour verifies the effectiveness of these methods. Furthermore, we identify smartphone GPS data of vehicles and develop a concise and effective method for traffic volume estimation for county highway network. It is shown that the developed smartphone GPS data analytics is powerful for predicting reliable annual average daily traffic estimation. The study showcases the capability of GPS location data in identifying municipal mobility patterns for both citizens and vehicles.  © Copyright: },
+  author_keywords   = {Flow map, Kernel density function, Municipal mobility, Smartphone GPS data, Traffic volume prediction},
+  keywords          = {Behavioral research, Data Analytics, Location, Smartphones, Annual average daily traffics, Highway networks, Human behaviours, Kernel Density Estimation, Metropolitan area, Mobility pattern, Space and time, Traffic volumes, Global positioning system},
+  type              = {Conference paper},
+  publication_stage = {Final},
+  source            = {Scopus},
+  note              = {Cited by: 0; All Open Access, Gold Open Access}
+}
+
+@inproceedings{10.1145/2820783.2820860,
+  author    = {Yu, Jia and Wu, Jinxuan and Sarwat, Mohamed},
+  title     = {GeoSpark: a cluster computing framework for processing large-scale spatial data},
+  year      = {2015},
+  isbn      = {9781450339674},
+  publisher = {Association for Computing Machinery},
+  address   = {New York, NY, USA},
+  url       = {https://doi.org/10.1145/2820783.2820860},
+  doi       = {10.1145/2820783.2820860},
+  abstract  = {This paper introduces GeoSpark an in-memory cluster computing framework for processing large-scale spatial data. GeoSpark consists of three layers: Apache Spark Layer, Spatial RDD Layer and Spatial Query Processing Layer. Apache Spark Layer provides basic Spark functionalities that include loading / storing data to disk as well as regular RDD operations. Spatial RDD Layer consists of three novel Spatial Resilient Distributed Datasets (SRDDs) which extend regular Apache Spark RDDs to support geometrical and spatial objects. GeoSpark provides a geometrical operations library that accesses Spatial RDDs to perform basic geometrical operations (e.g., Overlap, Intersect). System users can leverage the newly defined SRDDs to effectively develop spatial data processing programs in Spark. The Spatial Query Processing Layer efficiently executes spatial query processing algorithms (e.g., Spatial Range, Join, KNN query) on SRDDs. GeoSpark also allows users to create a spatial index (e.g., R-tree, Quad-tree) that boosts spatial data processing performance in each SRDD partition. Preliminary experiments show that GeoSpark achieves better run time performance than its Hadoop-based counterparts (e.g., SpatialHadoop).},
+  booktitle = {Proceedings of the 23rd SIGSPATIAL International Conference on Advances in Geographic Information Systems},
+  articleno = {70},
+  numpages  = {4},
+  keywords  = {cluster computing, large-scale data, spatial data},
+  location  = {Seattle, Washington},
+  series    = {SIGSPATIAL '15}
+}
+
+@article{elmeiligy2021efficient,
+  title     = {An efficient parallel indexing structure for multi-dimensional big data using spark},
+  author    = {Elmeiligy, Manar A and Desouky, Ali I El and Elghamrawy, Sally M},
+  journal   = {The Journal of Supercomputing},
+  volume    = {77},
+  number    = {10},
+  pages     = {11187--11214},
+  year      = {2021},
+  publisher = {Springer},
+  abstract  = {With the increasing daily production of data in recent years, indexing, storing and retrieving huge amounts of data have become a common problem, especially for multi-dimensional big data. Although R-tree has proved to be efficient for indexing multi-dimensional big data, the R-tree suffers from the curse of dimensionality problem. Many researchers continue to use the R-tree in their studies as it is the most famous tree-like structure for indexing multi-dimensional data. However, with increasing numbers of dimensions in multi-dimensional data the performance of R-Tree will decrease. This paper proposes a new indexing structure called Parallel Indexing System Structure based on Spark (ParISSS), which is an efficient system for indexing multi-dimensional big data, to overcome these problems. ParISSS introduces six types of computing nodes, the reception-node is used to insert and index data, the normal-node is used to store indexed data, the resolution-node is used to distribute a reception-index to a normal-node, the representative-node is used to receive queries from the user, and the reply-node and check-node are used to send the results to the user. We also introduced BR*-tree structure to improve the storing and searching processes. We present an extensive experimental evaluation of our system, comparing several indexing systems. The experimental results show that ParISSS outperforms other indexing systems.},
+  keywords  = {Multi-dimensional data, Big data, Indexing, Parallel Processing, Spark}
+}
+
+@inproceedings{10.1145/3397536.3422274, 
+author = {Chen, Hao and Yang, Ke and Rizzo, Stefano Giovanni and Vantini, Giovanna and Taylor, Phillip and Ma, Xiaosong and Chawla, Sanjay}, 
+title = {QarSUMO: A Parallel, Congestion-optimized Traffic Simulator}, 
+year = {2020}, 
+isbn = {9781450380195}, 
+publisher = {Association for Computing Machinery}, 
+address = {New York, NY, USA}, 
+url = {https://doi.org/10.1145/3397536.3422274}, 
+doi = {10.1145/3397536.3422274}, 
+abstract = {Traffic simulators are important tools for tasks such as urban planning and transportation management. Microscopic simulators allow per-vehicle movement simulation, but require longer simulation time. The simulation overhead is exacerbated when there is traffic congestion and most vehicles move slowly. This in particular hurts the productivity of emerging urban computing studies based on reinforcement learning, where traffic simulations are heavily and repeatedly used for designing policies to optimize traffic related tasks.In this paper, we develop QarSUMO, a parallel, congestion-optimized version of the popular SUMO open-source traffic simulator. QarSUMO performs high-level parallelization on top of SUMO, to utilize powerful multi-core servers and enables future extension to multi-node parallel simulation if necessary. The proposed design, while partly sacrificing speedup, makes QarSUMO compatible with future SUMO improvements. We further contribute such an improvement by modifying the SUMO simulation engine for congestion scenarios where the update computation of consecutive and slow-moving vehicles can be simplified. We evaluate QarSUMO with both real-world and synthetic road network and traffic data, and examine its execution time as well as simulation accuracy relative to the original, sequential SUMO.}, 
+booktitle = {Proceedings of the 28th International Conference on Advances in Geographic Information Systems}, 
+pages = {578–588}, 
+numpages = {11}, 
+keywords = {transportation simulation, distributed and parallel computing}, location = {Seattle, WA, USA}, 
+series = {SIGSPATIAL '20} 
+}
+
+@INPROCEEDINGS{8569938,
+  author={Lopez, Pablo Alvarez and Behrisch, Michael and Bieker-Walz, Laura and Erdmann, Jakob and Flötteröd, Yun-Pang and Hilbrich, Robert and Lücken, Leonhard and Rummel, Johannes and Wagner, Peter and Wiessner, Evamarie},
+  booktitle={2018 21st International Conference on Intelligent Transportation Systems (ITSC)}, 
+  title={Microscopic Traffic Simulation using SUMO}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={2575-2582},
+  abstract={Microscopic traffic simulation is an invaluable tool for traffic research. In recent years, both the scope of research and the capabilities of the tools have been extended considerably. This article presents the latest developments concerning intermodal traffic solutions, simulator coupling and model development and validation on the example of the open source traffic simulator SUMO.},
+  keywords={Tools, Microscopy, Roads, Data models, Urban areas, Vehicle dynamics,Mathematical model},
+  doi={10.1109/ITSC.2018.8569938},
+  ISSN={2153-0017},
+  month={Nov},}
+
+@ARTICLE{9075295,
+  author={Huang, Yu and Li, Yan and Zhang, Zhaofeng and Liu, Ryan Wen},
+  journal={IEEE Internet of Things Journal}, 
+  title={GPU-Accelerated Compression and Visualization of Large-Scale Vessel Trajectories in Maritime IoT Industries}, 
+  year={2020},
+  volume={7},
+  number={11},
+  pages={10794-10812},
+  abstract={The automatic identification system (AIS), an automatic vessel-tracking system, has been widely adopted to perform intelligent traffic management and collision avoidance services in maritime Internet-of-Things (IoT) industries. With the rapid development of maritime transportation, tremendous numbers of AIS-based vessel trajectory data have been collected, which make trajectory data compression imperative and challenging. This article mainly focuses on the compression and visualization of large-scale vessel trajectories and their graphics processing unit (GPU)-accelerated implementations. The visualization was implemented to investigate the influence of compression on vessel trajectory data quality. In particular, the Douglas-Peucker (DP) and kernel density estimation (KDE) algorithms, respectively, utilized for trajectory compression and visualization, were significantly accelerated through the massively parallel computation capabilities of the GPU architecture. Comprehensive experiments on trajectory compression and visualization have been conducted on large-scale AIS data of recording ship movements collected from three different water areas, i.e., the South Channel of Yangtze River Estuary, the Chengshan Jiao Promontory, and the Zhoushan Islands. Experimental results illustrated that: 1) the proposed GPU-based parallel implementation frameworks could significantly reduce the computational time for both trajectory compression and visualization; 2) the influence of compressed vessel trajectories on trajectory visualization could be negligible if the compression threshold was selected suitably; and 3) the Gaussian kernel was capable of generating more appropriate KDE-based visualization performance by comparing with other seven kernel functions.},
+  keywords={Trajectory, Data visualization, Graphics processing units, Internet of Things, Artificial intelligence, Industries, Acceleration, Data visualization,graphics processing unit (GPU), parallel computing, trajectory compression,vessel trajectory},
+  doi={10.1109/JIOT.2020.2989398},
+  ISSN={2327-4662},
+  month={Nov},}
+
+@ARTICLE{10356753,
+  author={Liang, Huanghuang and Zhang, Zheng and Hu, Chuang and Gong, Yili and Cheng, Dazhao},
+  journal={IEEE Transactions on Big Data}, 
+  title={A Survey on Spatio-Temporal Big Data Analytics Ecosystem: Resource Management, Processing Platform, and Applications}, 
+  year={2024},
+  volume={10},
+  number={2},
+  pages={174-193},
+  abstract={With the rapid evolution of the Internet, Internet of Things (IoT), and geographic information systems (GIS), spatio-temporal Big Data (STBD) is experiencing exponential growth, marking the onset of the STBD era. Recent studies have concentrated on developing algorithms and techniques for the collection, management, storage, processing, analysis, and visualization of STBD. Researchers have made significant advancements by enhancing STBD handling techniques, creating novel systems, and integrating spatio-temporal support into existing systems. However, these studies often neglect resource management and system optimization, crucial factors for enhancing the efficiency of STBD processing and applications. Additionally, the transition of STBD to the innovative Cloud-Edge-End unified computing system needs to be noticed. In this survey, we comprehensively explore the entire ecosystem of STBD analytics systems. We delineate the STBD analytics ecosystem and categorize the technologies used to process GIS data into five modules: STBD, computation resources, processing platform, resource management, and applications. Specifically, we subdivide STBD and its applications into geoscience-oriented and human-social activity-oriented. Within the processing platform module, we further categorize it into the data management layer (DBMS-GIS), data processing layer (BigData-GIS), data analysis layer (AI-GIS), and cloud native layer (Cloud-GIS). The resource management module and each layer in the processing platform are classified into three categories: task-oriented, resource-oriented, and cloud-based. Finally, we propose research agendas for potential future developments.},
+  keywords={Resource management, Big Data, Cloud computing, Geographic information systems, Artificial intelligence, Ecosystems, Data processing, Artificial intelligence framework, Big Data system, cloud platform, database management system, geographic information system, resource management, spatio-temporal Big Data},
+  doi={10.1109/TBDATA.2023.3342619},
+  ISSN={2332-7790},
+  month={April},}
+
+@inproceedings{STARK,
+author = {Hagedorn, Stefan and Götze, Philipp and Sattler, Kai-Uwe},
+year = {2017},
+month = {01},
+pages = {},
+title = {The STARK Framework for Spatio-Temporal Data Analytics on Spark},
+abstract={Big Data sets can contain all types of information: from server log files to tracking information of mobile users with their location at a point in time. Apache Spark has been widely accepted for Big Data analytics because of its very fast processing model. However, Spark has no native support for spatial or spatio-temporal data. Spatial filters or joins using, e.g., a contains predicate are not supported and would have to be implemented inefficiently by the users. Also, Spark cannot make use of, e.g., spatial distribution for optimal partitioning. Here we present our STARK framework that adds spatio-temporal support to Spark. It includes spatial partitioners, different modes for indexing, as well as filter, join, and clustering operators. In contrast to existing solutions, STARK integrates seamlessly into any (Scala) Spark program and provides more flexible and comprehensive operators. Furthermore, our experimental evaluation shows that our implementation outperforms existing solutions.}
+}
+
+@article{Pradeep Reddy_2022,
+doi = {10.1088/1755-1315/982/1/012058},
+url = {https://dx.doi.org/10.1088/1755-1315/982/1/012058},
+year = {2022},
+month = {mar},
+publisher = {IOP Publishing},
+volume = {982},
+number = {1},
+pages = {012058},
+author = {S. Pradeep Reddy and C. Naveen kumar and R. Pranavi},
+title = {Trajectory analysis at mid-block section using microscopic simulation},
+journal = {IOP Conference Series: Earth and Environmental Science},
+abstract = {With rapid urbanization, traffic has increased in recent years. For a developing nation, mobility is a key concern. Especially, in rapidly expanding urban areas, vehicle accidents are of great concern. Because of this, it is necessary to pay vital attention to transportation and examine the need for greater geometric design and capacity. To assess road user interactions at a mid-block with heterogeneous traffic complexity, innovative trajectory-based data was used. In order to evaluate microscopic traffic flow parameters under various traffic flow conditions a Support Vector Machine (SVM) is used to classify severity grades based on specified indicators which are between generated at two mid-block sections. A vehicle trajectory data for two different mid-block sections using a semi-automated image processing method is generated. The trajectories detected are vehicle ID, vehicle time, speed, longitude, latitude position, flow. From the analysis, microscopic traffic flow parameter like time headway, space headway is estimated by plotting a graph using Linear Regression model. This means that SVM is the best fit model to estimate headway at mid-block section (R2 = 0.86, 0.85) studied. From this study, it is concluded that the obtained value of R2 and goodness of fit measures using trajectory data base is highly acceptable to estimate the headway at mid-block section.}
+}
+
+@article{LI2020225,
+title = {Trajectory data-based traffic flow studies: A revisit},
+journal = {Transportation Research Part C: Emerging Technologies},
+volume = {114},
+pages = {225-240},
+year = {2020},
+issn = {0968-090X},
+doi = {https://doi.org/10.1016/j.trc.2020.02.016},
+url = {https://www.sciencedirect.com/science/article/pii/S0968090X19312987},
+author = {Li Li and Rui Jiang and Zhengbing He and Xiqun (Michael) Chen and Xuesong Zhou},
+keywords = {Traffic flow, Trajectory data, Data collection, Big data},
+abstract = {In this paper, we review trajectory data-based traffic flow studies that have been conducted over the last 15 years. Our purpose is to provide a roadmap for readers who have an interest in the latest developments of traffic flow theory that have been stimulated by the availability of trajectory data. We first highlight the critical role of trajectory data (especially the next generation simulation (NGSIM) trajectory dataset) in the recent history of traffic flow studies. Then, we summarize new traffic phenomena/models at the microscopic/mesoscopic/macroscopic levels and provide a unified view of these achievements perceived from different directions of traffic flow studies. Finally, we discuss some future research directions.}
+}
+
+@article{WANG2024104439,
+title = {Integrated self-consistent macro-micro traffic flow modeling and calibration framework based on trajectory data},
+journal = {Transportation Research Part C: Emerging Technologies},
+volume = {158},
+pages = {104439},
+year = {2024},
+issn = {0968-090X},
+doi = {https://doi.org/10.1016/j.trc.2023.104439},
+url = {https://www.sciencedirect.com/science/article/pii/S0968090X23004291},
+author = {Zelin Wang and Zhiyuan Liu and Qixiu Cheng and Ziyuan Gu},
+keywords = {Self-consistency, Multi-resolution modeling, Car-following, Fundamental diagram, Multi-objective optimization, Deep learning},
+abstract = {Calibrating microscopic car-following (CF) models is crucial in traffic flow theory as it allows for accurate reproduction and investigation of traffic behavior and phenomena. Typically, the calibration procedure is a complicated, non-convex optimization issue. When the traffic state is in equilibrium, the macroscopic flow model can be derived analytically from the corresponding CF model. In contrast to the microscopic CF model, calibrated based on trajectory data, the macroscopic representation of the fundamental diagram (FD) primarily adopts loop detector data for calibration. The different calibration approaches at the macro- and microscopic levels may lead to misaligned parameters with identical practical meanings in both macro- and micro-traffic models. This inconsistency arises from the difference between the parameter calibration processes used in macro- and microscopic traffic flow models. Hence, this study proposes an integrated multiresolution traffic flow modeling framework using the same trajectory data for parameter calibration based on the self-consistency concept. This framework incorporates multiple objective functions in the macro- and micro-dimensions. To expeditiously execute the proposed framework, an improved metaheuristic multi-objective optimization algorithm is presented that employs multiple enhancement strategies. Additionally, a deep learning technique based on attention mechanisms was used to extract stationary-state traffic data for the macroscopic calibration process, instead of directly using the entire aggregated data. We conducted experiments using real-world and synthetic trajectory data to validate our self-consistent calibration framework.}
 }
