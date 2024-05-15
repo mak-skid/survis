@@ -1,4 +1,18 @@
 ﻿const generatedBibEntries = {
+    "10.1007/978-981-16-4126-8_24": {
+        "abstract": "The human being throughout history has developed ways to optimize his time and resources. Nowadays, mobility is one of the biggest problems. Traffic simulation tools are frequently used to study mobility problems. GeoSparkSim is a vehicular traffic simulation tool that extends Apache Spark to generate datasets of road network traffic significantly with the simulation of microscopic traffic that includes traffic lights, change of track, and the pursuit of vehicles. This work presents an architecture to implement and evaluate the GeoSparkSim simulation tool. The architecture was developed on different containers in Docker, and two stages of the study were created for its evaluation. Each stage contains 26 simulations in different geographic zones from the Quito city. Results show the potentials of GeoSparkSim in order to study traffic mobility and compare its implementation on different Cloud services such as Google, Amazon, and Azure. In order to have an acceptable simulation, we found a machine that has at least 146\u00a0GB in storage and 8\u00a0GB in RAM is recommended.",
+        "address": "Singapore",
+        "author": "Alba Valencia, Ver{\\'o}nica and Proa{\\~{n}}o Orellana, Julio",
+        "booktitle": "Communication, Smart Technologies and Innovation for Society",
+        "doi": "Apache Spark, Data space-oriented approach (DSO), Microscopic traffic simulation, Network-based approach (NB), Resilient distributed datasets (RDD), Spatio-temporal data",
+        "editor": "Rocha, {\\'A}lvaro and L{\\'o}pez-L{\\'o}pez, Paulo Carlos and Salgado-Guerrero, Juan Pablo",
+        "isbn": "978-981-16-4126-8",
+        "pages": "253--263",
+        "publisher": "Springer Singapore",
+        "title": "Design and Evaluation of a Distributed Architecture for GeoSparkSim",
+        "type": "InProceedings",
+        "year": "2022"
+    },
     "10.1145/2820783.2820860": {
         "abstract": "This paper introduces GeoSpark an in-memory cluster computing framework for processing large-scale spatial data. GeoSpark consists of three layers: Apache Spark Layer, Spatial RDD Layer and Spatial Query Processing Layer. Apache Spark Layer provides basic Spark functionalities that include loading / storing data to disk as well as regular RDD operations. Spatial RDD Layer consists of three novel Spatial Resilient Distributed Datasets (SRDDs) which extend regular Apache Spark RDDs to support geometrical and spatial objects. GeoSpark provides a geometrical operations library that accesses Spatial RDDs to perform basic geometrical operations (e.g., Overlap, Intersect). System users can leverage the newly defined SRDDs to effectively develop spatial data processing programs in Spark. The Spatial Query Processing Layer efficiently executes spatial query processing algorithms (e.g., Spatial Range, Join, KNN query) on SRDDs. GeoSpark also allows users to create a spatial index (e.g., R-tree, Quad-tree) that boosts spatial data processing performance in each SRDD partition. Preliminary experiments show that GeoSpark achieves better run time performance than its Hadoop-based counterparts (e.g., SpatialHadoop).",
         "address": "New York, NY, USA",
