@@ -140,7 +140,8 @@
         "pages": "",
         "title": "The STARK Framework for Spatio-Temporal Data Analytics on Spark",
         "type": "inproceedings",
-        "year": "2017"
+        "year": "2017",
+        "url": "https://www.researchgate.net/publication/315584294"
     },
     "Sigurdsson2018RoadTC": {
         "author": "Thorsteinn Thorri Sigurdsson",
